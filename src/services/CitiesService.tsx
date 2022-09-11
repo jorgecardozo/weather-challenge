@@ -1,9 +1,10 @@
-import axios, { AxiosResponse } from 'axios';
-import { Weather } from '../store/types/types';
+import { AxiosResponse } from 'axios';
 import { apiCities } from '../axios';
 
 export class CitiesService {
-  static getCurrentCities(city: string): Promise<AxiosResponse<any>> {
-    return apiCities.get<any>(`/cities?minPopulation=1000000&namePrefix=${city}`);
-  }
+	static async getCurrentCities(city: string): Promise<AxiosResponse<any>> {
+		return await apiCities.get<any>(
+			`/cities?minPopulation=1000000&namePrefix=${city}`
+		);
+	}
 }
