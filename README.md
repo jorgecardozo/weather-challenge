@@ -15,6 +15,8 @@ Este proyecto se creo usando:
 
 ## Visualizar el proyecto sin tener que clonarlo
 
+- Para que muestre el clima de la ubicacion actual en Mobile se debe tener activado antes la `ubicacion` y en Web se deben dar permisos al navegador sobre la ubicacion, sino nunca mostrara el clima de la ubicacion actual.
+
 [https://jorgecardozo.github.io/weather-challenge/]
 
 ## Descargar el proyecto
