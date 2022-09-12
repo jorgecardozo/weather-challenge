@@ -1,6 +1,18 @@
 # weather-challenge
 Weather challenge
 
+## Descripcion
+
+Este proyecto se creo usando: 
+- `VITE`
+- `React`
+- `Typescript`
+- `Sass`
+- `Bootstrap`
+- `Redux toolkit`
+- `Thunk`
+- `Axios`
+
 ## Descargar el proyecto
 
 `git clone https://github.com/jorgecardozo/weather-challenge.git`
