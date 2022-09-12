@@ -13,6 +13,10 @@ Este proyecto se creo usando:
 - `Thunk`
 - `Axios`
 
+## Visualizar el proyecto sin tener que clonarlo
+
+[https://jorgecardozo.github.io/weather-challenge/]
+
 ## Descargar el proyecto
 
 `git clone https://github.com/jorgecardozo/weather-challenge.git`
